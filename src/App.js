@@ -30,7 +30,7 @@ function App() {
   return (
     <div className={`calculator-container ${getThemeClass()} `}>
       <div className={`calculator ${getThemeClass()}`}>
-        <div className="d-flex align-items-center">
+        <div className="d-flex align-items-center justify-content-between">
           <div>
           <input type="text" value={screen} className="form-control mb-3" readOnly />
           </div>
